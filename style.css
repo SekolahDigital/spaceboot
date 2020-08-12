@@ -1,0 +1,56 @@
+html {
+  font-family: "Quicksand", sans-serif;
+  color: white;
+  background-color: #2f2e41;
+}
+.container {
+  width: 1080px;
+  margin: 0 auto;
+  position: relative;
+}
+.nav-brand {
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+}
+section.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.landing-image img {
+  position: absolute;
+  width: 523px;
+  height: 539px;
+  left: 630px;
+  top: 0px;
+}
+.landing-text {
+  margin-top: 100px;
+}
+.landing-text h3 {
+  width: 481px;
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 53px;
+}
+.landing-text p {
+  font-weight: 1;
+  font-size: 18px;
+  line-height: 22px;
+  width: 350px;
+  height: 46px;
+}
+
+button.btn-primary {
+  background: #e5e5e5;
+  border-radius: 50px;
+  width: 120px;
+  height: 50px;
+  border: 0;
+  font-weight: 500;
+  font-size: 18px;
+}
